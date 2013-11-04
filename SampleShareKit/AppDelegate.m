@@ -12,6 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    DefaultSHKConfigurator *configurator = SHKConfigurattorSample.new;
+    [SHKConfiguration sharedInstanceWithConfigurator:configurator];
     // Override point for customization after application launch.
     return YES;
 }

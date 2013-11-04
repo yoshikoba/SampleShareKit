@@ -49,6 +49,7 @@
 		98CFE8011827ACC6001A1847 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CFE7FE1827ACC5001A1847 /* FacebookSDK.framework */; };
 		98CFE8021827ACC6001A1847 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CFE7FF1827ACC5001A1847 /* GooglePlus.framework */; };
 		98CFE8061827ACDC001A1847 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98CFE8031827ACDC001A1847 /* GTMOAuth2ViewTouch.xib */; };
+		98CFE80B1827AFD3001A1847 /* SHKConfigurattorSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFE80A1827AFD3001A1847 /* SHKConfigurattorSample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -416,6 +417,8 @@
 		98CFE7FE1827ACC5001A1847 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Submodules/ShareKit/Frameworks/FacebookSDK.framework; sourceTree = "<group>"; };
 		98CFE7FF1827ACC5001A1847 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = Submodules/ShareKit/Frameworks/GooglePlus.framework; sourceTree = "<group>"; };
 		98CFE8031827ACDC001A1847 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; lastKnownFileType = file; name = GTMOAuth2ViewTouch.xib; path = "Submodules/google-api-objectivec/Source/OAuth2/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
+		98CFE8091827AFD3001A1847 /* SHKConfigurattorSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKConfigurattorSample.h; sourceTree = "<group>"; };
+		98CFE80A1827AFD3001A1847 /* SHKConfigurattorSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKConfigurattorSample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -531,6 +534,8 @@
 				98CFE7281827A535001A1847 /* Main_iPad.storyboard */,
 				98CFE72B1827A535001A1847 /* ViewController.h */,
 				98CFE72C1827A535001A1847 /* ViewController.m */,
+				98CFE8091827AFD3001A1847 /* SHKConfigurattorSample.h */,
+				98CFE80A1827AFD3001A1847 /* SHKConfigurattorSample.m */,
 				98CFE72E1827A535001A1847 /* Images.xcassets */,
 				98CFE8051827ACDC001A1847 /* Resources - ShareKit Library */,
 				98CFE71A1827A535001A1847 /* Supporting Files */,
@@ -1040,6 +1045,7 @@
 			files = (
 				98CFE72D1827A535001A1847 /* ViewController.m in Sources */,
 				98CFE7241827A535001A1847 /* AppDelegate.m in Sources */,
+				98CFE80B1827AFD3001A1847 /* SHKConfigurattorSample.m in Sources */,
 				98CFE7201827A535001A1847 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

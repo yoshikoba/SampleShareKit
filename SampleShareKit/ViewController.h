@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "ShareKit.h"
+//#import "SHK.h"
+#import "SHKSharer.h"
+@interface ViewController : UIViewController<SHKSharerDelegate>
 
 @end
